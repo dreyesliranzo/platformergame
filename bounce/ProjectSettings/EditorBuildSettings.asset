@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: ffad1e9832562fd469658025993570a5
+  - enabled: 1
+    path: Assets/Scenes/lol.unity
+    guid: 6d7098ebd7043804faeb778dd2cc869a
+  - enabled: 1
+    path: Assets/Scenes/xd.unity
+    guid: 007555b24811d09449e3f127b6529c95
   m_configObjects: {}

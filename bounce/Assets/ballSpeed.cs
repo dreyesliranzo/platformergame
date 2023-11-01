@@ -51,7 +51,7 @@ public class ballSpeed : MonoBehaviour
         {
 
             Destroy(gameObject);
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(0);
 
 
         }

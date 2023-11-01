@@ -9,5 +9,16 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene(0);
     }
-    
+    public void Menu()
+    {
+        SceneManager.LoadScene(1);
+    }
+    public void Dont()
+    {
+        SceneManager.LoadScene(2);
+    }
+    public void really()
+    {
+        SceneManager.LoadScene(3);
+    }
 }
