@@ -55,6 +55,13 @@ public class ballSpeed : MonoBehaviour
 
 
         }
+        if (collision.gameObject.tag.Equals("capsule"))
+        {
+
+            SceneManager.LoadScene(4);
+
+
+        }
     }
 
 
