@@ -6,6 +6,7 @@ TagManager:
   tags:
   - wall
   - spikes
+  - capsule
   layers:
   - Default
   - TransparentFX
