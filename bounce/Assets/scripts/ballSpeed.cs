@@ -40,11 +40,7 @@ public class ballSpeed : MonoBehaviour
         transform.position = newPosition;
     }
 
-    private void Launch()
-
-    {
-        
-    }
+    
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag.Equals("spikes"))
@@ -59,6 +55,15 @@ public class ballSpeed : MonoBehaviour
         {
 
             SceneManager.LoadScene(4);
+
+
+        }
+        if (collision.gameObject.tag.Equals("enemy"))
+        {
+
+            Destroy(gameObject);
+            SceneManager.LoadScene(0);
+            
 
 
         }

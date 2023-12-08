@@ -8,6 +8,8 @@ TagManager:
   - spikes
   - capsule
   - player
+  - enemy
+  - bullet
   layers:
   - Default
   - TransparentFX
